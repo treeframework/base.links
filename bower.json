@@ -1,6 +1,6 @@
 {
   "name": "tree-links",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/treeframework/base.links",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>",
@@ -13,6 +13,6 @@
   ],
   "license": "Apache",
   "dependencies": {
-    "tree-colors": "latest"
+    "tree-defaults": "latest"
   }
 }
