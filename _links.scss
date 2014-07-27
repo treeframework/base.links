@@ -1,0 +1,21 @@
+// *************************************
+//
+//   #LINKS
+//
+// *************************************
+
+//    High-level, links styling.
+//
+// 1. Reset/normalize some styles.
+// 2. Set the default link `color` for the entire project.
+a {
+    text-decoration: none; // [1]
+    color: $color-links; // [2]
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline; // [1]
+    }
+
+}
